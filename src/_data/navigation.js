@@ -6,7 +6,7 @@ module.exports = {
     },
     {
       text: "About me",
-      url: "/en/about/",
+      url: "/en/about-me/",
     },
   ],
   es: [

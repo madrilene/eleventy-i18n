@@ -1,7 +1,8 @@
 ---
-title: "Über mich"
+title: "Sobre mi"
 description: "Una subpágina en español"
 layout: base.njk
+permalink: /es/sobre-mi/index.html
 ---
 
 Soy una desarrolladora y diseñadora nacida en Berlín, viviendo en Madrid. Llevo creando para la web profesionalmente desde 2008. Me especializo en sitios web creativos a medida teniendo en cuenta especialmente la accesibilidad y el rendimiento.

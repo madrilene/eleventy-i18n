@@ -1,7 +1,7 @@
 <header>
   <nav aria-label="Primary">
     <ul>
-      {% for item in navigation[lang] %}
+      {% for item in navigation[page.lang] %}
       <li>
         <a
           href="{{ item.url }}"
@@ -15,6 +15,9 @@
         >
       </li>
       {% endfor %}
+      <li>
+        <a href="https://github.com/madrilene/eleventy-i18n-starter">GitHub</a>
+      </li>
     </ul>
   </nav>
 </header>
