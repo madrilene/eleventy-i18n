@@ -1,0 +1,8 @@
+---
+title: "About me"
+description: "An English subpage"
+layout: base.njk
+permalink: /{{ lang }}/about-me/index.html
+---
+
+I'm a Berlin born, Madrid based developer and designer who has been building for the web professionally since 2008. I specialize in custom creative websites with accessibility and performance in mind.

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{{ title }}</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"
+    />
+
+    <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url }}" />
+
+    {% for link in page.url | locale_links %}
+    <link
+      rel="alternate"
+      hreflang="{{ link.lang }}"
+      href="{{ meta.url }}{{ link.url }}"
+    />
+    {% endfor %}
+
+    <meta name="description" content="{{ description }}" />
+  </head>
+
+  <body>
+    {% include "header.njk" %}
+    <main>
+      <h1>{{ title }}</h1>
+      {{ content | safe }}
+    </main>
+
+    {% include "footer.njk" %}
+  </body>
+</html>

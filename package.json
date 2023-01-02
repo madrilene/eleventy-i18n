@@ -1,0 +1,26 @@
+{
+  "name": "eleventy-i18n-starter",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=16.x.x"
+  },
+  "description": "Minimal starter for localized content, using Eleventy's own Internationalization (I18n) plugin",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/11ty/eleventy-i18n-starter.git"
+  },
+  "author": {
+    "name": "Lene Saile",
+    "url": "https://www.lenesaile.com/"
+  },
+  "scripts": {
+    "start": "eleventy --serve --watch",
+    "build": "cross-env ELEVENTY_ENV=production eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.23"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

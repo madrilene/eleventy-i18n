@@ -1,0 +1,23 @@
+[[redirects]]
+from = "/"
+to = "/de"
+status = 302
+force= true
+conditions = {Language = ["de"]}
+
+[[redirects]]
+from = "/"
+to = "/es"
+status = 302
+force = true
+conditions = {Language = ["es"]}
+
+[[redirects]]
+from = "/"
+to = "/en"
+status = 302
+force = true
+
+[build]
+  command = "npm run build"
+  publish = "dist"
