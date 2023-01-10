@@ -1,7 +1,6 @@
 ---
-title: "Sobre mi"
-description: "Una subpágina en español"
-layout: base.njk
+title: 'Sobre mi'
+description: 'Una subpágina en español'
 permalink: /es/sobre-mi/index.html
 ---
 

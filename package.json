@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "eleventy --serve --watch",
-    "build": "cross-env ELEVENTY_ENV=production eleventy"
+    "build": "eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-canary.23"

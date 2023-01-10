@@ -1,7 +1,6 @@
 <footer>
-  {{ meta[lang].availableText }}
-
-  {% for link in page.url | locale_links %} {%- if not loop.first %}/{% endif %}
+  {{ languages[page.lang].availableText }} {% for link in page.url | locale_links %} {%-
+  if not loop.first %}/{% endif %}
 
   <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">{{
     link.label

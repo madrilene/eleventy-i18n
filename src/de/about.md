@@ -1,7 +1,6 @@
 ---
-title: "Über mich"
-description: "Eine deutsche Unterseite"
-layout: base.njk
+title: 'Über mich'
+description: 'Eine deutsche Unterseite'
 permalink: /de/ueber-mich/index.html
 ---
 

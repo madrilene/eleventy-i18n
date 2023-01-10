@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}" dir="{{ languages[page.lang].dir or 'ltr' }}">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -12,7 +12,7 @@
       href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"
     />
 
-    <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url }}" />
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
 
     {% for link in page.url | locale_links %}
     <link
@@ -22,7 +22,15 @@
     />
     {% endfor %}
 
-    <meta name="description" content="{{ description }}" />
+    <link rel="canonical" href="{{ meta.url }}{{ page.url }}" />
+    <meta
+      name="description"
+      content="{% if description %}
+    {{ description }}
+    {% else %}
+    {{ meta.siteDescription }}
+    {% endif %}"
+    />
   </head>
 
   <body>
