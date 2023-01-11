@@ -1,12 +1,23 @@
 module.exports = {
   en: {
     dir: '',
-    availableText: 'This page is also available in:'
+    availableText: 'This page is also available in:',
+    skipText: 'Jump to main content',
+    ariaPrimary: 'Primary',
+    ariaLang: 'Change language'
   },
   de: {
-    availableText: 'Diese Seite ist auch verfügbar in:'
+    dir: '',
+    availableText: 'Diese Seite ist auch verfügbar in:',
+    skipText: 'Zum Hauptinhalt springen',
+    ariaPrimary: 'Primär',
+    ariaLang: 'Sprache ändern'
   },
   es: {
-    availableText: 'Esta página también está disponible en:'
+    dir: '',
+    availableText: 'Esta página también está disponible en:',
+    skipText: 'Saltar al contenido principal',
+    ariaPrimary: 'Primario',
+    ariaLang: 'Cambiar idioma'
   }
 };
