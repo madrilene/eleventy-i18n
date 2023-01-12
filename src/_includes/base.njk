@@ -9,7 +9,7 @@
 
     <!-- prettier-ignore -->
     <style>
-      nav#footer{all:unset}.skip-link{clip:rect(1px,1px,1px,1px);display:block;left:1rem;top:4rem;z-index:999}.skip-link,.visually-hidden{height:1px;overflow:hidden;position:absolute;width:1px}.visually-hidden{clip:rect(0,0,0,0);white-space:nowrap}.skip-link:focus,.visually-hidden:focus{clip:auto;background-color:var(--background);color:var(--links);height:auto;line-height:1;overflow:visible;padding:1rem;width:auto}.skip-link:not(:focus){clip:rect(0 0 0 0);border:0;height:auto;margin:0;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px;}
+      body{font-size:1.1rem;}a{text-decoration:underline!important;}nav#footer{all:unset}.skip-link{clip:rect(1px,1px,1px,1px);display:block;left:1rem;top:4rem;z-index:999}.skip-link,.visually-hidden{height:1px;overflow:hidden;position:absolute;width:1px}.visually-hidden{clip:rect(0,0,0,0);white-space:nowrap}.skip-link:focus,.visually-hidden:focus{clip:auto;background-color:var(--background);color:var(--links);height:auto;line-height:1;overflow:visible;padding:1rem;width:auto}.skip-link:not(:focus){clip:rect(0 0 0 0);border:0;height:auto;margin:0;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px;}
     </style>
 
     <link
@@ -40,7 +40,7 @@
 
   <body>
     {% include "header.njk" %}
-    <main>
+    <main id="#main">
       <h1>{{ title }}</h1>
       {{ content | safe }}
     </main>
