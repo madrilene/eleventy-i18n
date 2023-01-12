@@ -5,6 +5,8 @@ module.exports = function (eleventyConfig) {
     defaultLanguage: 'en' // Required
   });
 
+  eleventyConfig.addPassthroughCopy('src/favicon.ico');
+
   return {
     dir: {
       input: 'src',
