@@ -1,4 +1,4 @@
-# eleventy-i18n-starter
+# eleventy-i18n
 
 Minimal starter for localized content, using Eleventy's own Internationalization (I18n) plugin.
 

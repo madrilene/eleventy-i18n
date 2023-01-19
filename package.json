@@ -1,5 +1,5 @@
 {
-  "name": "eleventy-i18n-starter",
+  "name": "eleventy-i18n",
   "version": "0.0.1",
   "engines": {
     "node": ">=16.x.x"
@@ -7,7 +7,7 @@
   "description": "Minimal starter for localized content, using Eleventy's own Internationalization (I18n) plugin",
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-i18n-starter.git"
+    "url": "git://github.com/11ty/eleventy-i18n.git"
   },
   "author": {
     "name": "Lene Saile",
