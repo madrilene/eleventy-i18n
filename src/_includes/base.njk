@@ -17,7 +17,11 @@
       href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"
     />
 
-    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+    <link
+      rel="alternate"
+      hreflang="{{ page.lang }}"
+      href="{{ meta.url }}{{ page.url }}"
+    />
 
     {% for link in page.url | locale_links %}
     <link
