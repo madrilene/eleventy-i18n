@@ -7,16 +7,7 @@
     <ul>
       {% for item in navigation[page.lang] %}
       <li>
-        <a
-          href="{{ item.url }}"
-          {{
-          helpers.getLinkActiveState(item.url,
-          page.url)
-          |
-          safe
-          }}
-          >{{ item.text }}</a
-        >
+        <a href="{{ item.url }}">{{ item.text }}</a>
       </li>
       {% endfor %}
       <li>
