@@ -2,7 +2,11 @@
 
 Minimal starter for localized content, using Eleventy's own Internationalization (I18n) plugin.
 
-In an article on my personal website, I describe the structure of the starter and the decisions behind it: https://www.lenesaile.com/en/blog/internationalization-with-eleventy-20-and-netlify/
+In an article on my personal website, I describe the structure of the starter and the decisions behind it: https://www.lenesaile.com/en/blog/ (not yet published).
+
+## Preview
+
+https://eleventy-i18n.netlify.app
 
 ## Development
 
