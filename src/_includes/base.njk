@@ -39,6 +39,14 @@
     {{ meta.siteDescription }}
     {% endif %}"
     />
+
+    <meta property="og:site_name" content="{{ meta.siteName }}" />
+    <meta property="og:title" content="{{ title }} | {{ meta.siteName }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ description or meta.siteDescription }}" />
+    <meta property="og:url" content="{{ meta.url }}{{ page.url }}" />
+    <meta property="og:locale" content="{{ page.lang }}" />
+    <meta property="og:image" content="{{ meta.url }}{{ meta.ogImage }}" />
   </head>
 
   <body>
