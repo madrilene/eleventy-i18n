@@ -1,5 +1,6 @@
 module.exports = {
   /**
+   * © Andy Bell
    * Returns back some attributes based on wether the
    * link is active or a parent of an active item
    *
@@ -8,7 +9,7 @@ module.exports = {
    * @returns {String} The attributes or empty
    */
   getLinkActiveState(itemUrl, pageUrl) {
-    let response = "";
+    let response = '';
 
     if (itemUrl === pageUrl) {
       response = ' aria-current="page"';
@@ -19,5 +20,5 @@ module.exports = {
     }
 
     return response;
-  },
+  }
 };
