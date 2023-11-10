@@ -30,6 +30,12 @@
     />
     {% endfor %}
 
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="{{ meta.url }}{{ page.url | locale_url('en') }}"
+    />
+
     <link rel="canonical" href="{{ meta.url }}{{ page.url }}" />
     <meta
       name="description"
