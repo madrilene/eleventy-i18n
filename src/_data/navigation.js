@@ -28,5 +28,15 @@ module.exports = {
       text: 'Über mich',
       url: '/de/ueber-mich/'
     }
+  ],
+  fa: [
+    {
+      text: 'خانه',
+      url: '/fa/'
+    },
+    {
+      text: 'درباره‌ی من',
+      url: '/fa/drbarh-y-mn/'
+    }
   ]
 };
