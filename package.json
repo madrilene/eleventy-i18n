@@ -1,6 +1,6 @@
 {
   "name": "eleventy-i18n",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Minimal starter for localized content, using Eleventy's own Internationalization (I18n) plugin",
   "license": "ISC",
   "type": "module",
