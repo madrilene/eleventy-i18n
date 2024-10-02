@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   en: {
     dir: '',
     availableText: 'This page is also available in:',

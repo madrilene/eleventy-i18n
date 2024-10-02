@@ -1,6 +1,6 @@
-const {EleventyI18nPlugin} = require('@11ty/eleventy');
+import {EleventyI18nPlugin} from '@11ty/eleventy';
 
-module.exports = function (eleventyConfig) {
+export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en', // Required
     errorMode: 'allow-fallback' // Opting out of "strict"
@@ -20,4 +20,4 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk'
   };
-};
+}

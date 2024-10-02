@@ -1,1 +1,1 @@
-module.exports = 'base.njk';
+export default 'base.njk';

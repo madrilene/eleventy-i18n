@@ -1,10 +1,11 @@
-module.exports = {
+export default {
   lang: 'fa',
-  permalink: function (data) {
-    // Slug override for localized URL slugs
-    if (data.slugOverride) {
-      console.log()
-      return `/${data.lang}/${this.slugify(data.slugOverride)}/`;
+  eleventyComputed: {
+    key: data => {
+      if (data.key) {
+        return data.key;
+      }
+      return data.page.fileSlug;
     }
   }
 };
